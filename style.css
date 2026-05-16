@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+}
+.nn{
+    font-size: medium;
+}
+.pp{
+    width: 30%;
+    height: 20px;
+}
+.blue{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    width: 390px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
+}
+.header2{
+    display: flex;
+    gap: 20px;
+}
+section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 36px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+ .vniz{
+    display: none;
+ }
+.s1{
+   background-color: rgb(76, 76, 255); 
+   border-radius: 50px;
+   display: inline-block;
+}
+.s2{
+    background-color: rgb(38, 78, 38);
+    border-radius: 50px;
+    display: inline-block;
+}
+.s3{
+    background-color: goldenrod;
+    border-radius: 50px;
+    display: inline-block;
+}
+.section2{
+    justify-content: center;
+    display: inline-block;
+    justify-content: center;
+    font-size: 17px;
+}
+.section3{
+    width: 100%;
+    background-color: rgb(131, 131, 254);
+    justify-content: center;
+    text-align: center;
+}
+.section4{
+    width: 100%;
+    background-color: rgb(130, 181, 130);
+    justify-content: center;
+    text-align: center;
+}
+.section5{
+    width: 100%;
+    background-color: rgb(225, 182, 75);
+    justify-content: center;
+    text-align: center;
+}
+.mmm{
+    display: none;
+}
+.section6a1{
+    width: 100%;
+    text-align: center;
+}
+.section6{
+    flex-wrap: wrap;
+}
+.artic{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section7{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.bb{
+        border: 2px solid rgb(198, 198, 198);
+}
+.plos{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(198, 198, 198) ;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    width: 75%;
+    margin-left: 200px;
+}
+.ii{
+    width: 20%;
+    padding: 10px;
+}
+.bluee{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    width: 40%;
+}
+ @media (max-width:768px){
+    .right{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .left{
+        width: 100%;
+    }
+    .header2{
+        display: none;
+    }
+    .blue{
+        width: 328px;
+        height: 66px;
+    }
+    input{
+        width:328px;
+    }
+    .nn{
+        font-size: 14px;
+    }
+    .vniz{
+        display: block;
+    }
+    .it{
+        margin: 2px;
+    }
+    .mmm{
+        display: block;
+    }
+    .im{
+        display: none
+    }
+    .artic{
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+    .bb{
+        padding: 0px;
+    }
+    .section7{
+        text-align: start;
+    }
+    footer{
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    .bluee{
+        font-size: 10px;
+        width: 230px;
+    }
+    .ii{
+        width: 100px;
+    }
+ }
+ 
