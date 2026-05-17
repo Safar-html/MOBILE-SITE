@@ -139,6 +139,18 @@ footer{
     font-size: 30px;
     text-align: center;
 }
+.bb{
+    border-radius: 10%;
+    padding: 20px;
+}
+.boll{
+    font-size: 36px;
+    width: 100%;
+}
+.vnutr{
+    display: flex;
+    gap: 20px;
+}
  @media (max-width:768px){
     .right{
         display: none;
