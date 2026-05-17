@@ -129,6 +129,16 @@ footer{
     padding: 15px;
     width: 40%;
 }
+.white{
+    color: white;
+}
+.safar{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
  @media (max-width:768px){
     .right{
         display: none;
@@ -188,6 +198,10 @@ footer{
     }
     .ii{
         width: 100px;
+    }
+    .pp{
+        width: 100%;
+        padding: 10px;
     }
  }
  
